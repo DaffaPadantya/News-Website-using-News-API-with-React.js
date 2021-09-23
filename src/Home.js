@@ -30,7 +30,7 @@ class Home extends React.Component{
     getResponse(){
         axios.get('http://api.mediastack.com/v1/news', {
         params: {
-            access_key: '44f9bb544eb6426466a61a8011162ed8',
+            access_key: 'YOUR-KEY',
             sources: 'en',
             keywords: this.state.keywords,
             limit: 18,
